@@ -1,0 +1,18 @@
+body {
+    height: 300vh;
+}
+.navbar {
+    background-color: #222;
+}
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+.dropdown-item {
+    transition: 0.3s ease;
+    color: #9d9d9d;
+}
+.dropdown-item:hover {
+    background-color:#eeeeee00;
+    margin-left: 10px;
+    color: #eee;
+}
