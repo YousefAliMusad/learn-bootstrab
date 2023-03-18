@@ -108,8 +108,10 @@ body {
     }
         .section .id p{
         font-size: 30px;
+        margin-bottom: 15px;
     }
         .section .id {
+        margin-left: 15px;
         text-align: center;
     }
 }
@@ -119,6 +121,7 @@ body {
     }
         .section .id p{
         font-size: 30px;
+        margin-bottom: 15px;
     }
 }
 @media (max-width:600px) {
@@ -127,6 +130,7 @@ body {
     }
         .section .id p{
         font-size: 20px;
+        margin-bottom: 10px;
     }
         .section .id {
         text-align: left;
@@ -138,10 +142,11 @@ body {
         padding:  0 10px;
     }
     .section .id h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .section .id p{
         font-size: 15px;
+        color: #ffffffc9;
     }
 }
 
