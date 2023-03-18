@@ -145,6 +145,7 @@ body {
         font-size: 30px;
     }
     .section .id p{
+        margin-bottom: 0px;
         font-size: 15px;
         color: #ffffffc9;
     }
