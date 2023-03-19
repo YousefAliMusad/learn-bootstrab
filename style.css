@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 body {
     height: 300vh;
+    /* background-color: #f5f7fa; */
 }
 .navbar {
     background-color: #007bff;
@@ -29,11 +35,10 @@ body {
     align-items: center;
     justify-content: space-between;
     position:relative;
-
 }
 .section .id {
     text-align:end;
-    margin-right: 60px;
+    margin: 0 60px 0px 0;
     color: whitesmoke;
 }
 .section .img {
@@ -55,7 +60,7 @@ body {
     font-weight: 700;
 }
 .section svg path{
-    fill: white;
+    fill: #f5f7fa;
 }
 .section svg {
     position: absolute;
@@ -146,8 +151,8 @@ body {
     }
     .section .id p{
         margin-bottom: 10px;
-        font-size: 15px;
-        color: #ffffffc9;
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.612);
     }
 }
 
@@ -169,4 +174,29 @@ body {
     .navbar-brand {
         height: 35px;
     }
+}
+
+
+
+
+
+
+
+
+.section2 {
+    min-height: 80vh ;
+    background-color: #f5f7fa;
+}
+.section2 .cards {
+    height:calc(100% - 50px);
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 15px;
+}
+.section2 .card {
+    width: 300px;
+    height: 120px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.05);
 }
