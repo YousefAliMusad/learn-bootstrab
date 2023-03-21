@@ -1,6 +1,2 @@
-// let list = document.querySelector(".special-li");
-
-// list.onclick = function() {
-//     list.classList.toggle("change")
-// }
-// console.log("ddddddddddd")
+let date = new Date().getFullYear();
+document.querySelector(".foot span").innerHTML = date
